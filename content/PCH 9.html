@@ -122,7 +122,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a><li><a href='UNIT 4.html'>UNIT 4</a><li><a href='PCH 9.html'>PCH 9</a><li><a href='PCH 10.html'>PCH 10</a><li><a href='PCH 11.html'>PCH 11</a></li>
+                     <li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a><li><a href='PCH 9.html'>PCH 9</a><li><a href='PCH 10.html'>PCH 10</a><li><a href='PCH 11.html'>PCH 11</a></li>
                       </ul>
                 </nav>
               </div>
@@ -133,9 +133,54 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">UNIT 4 << <a href='UNIT 4.html'>Previous</a> <a href='PCH 10.html'>Next</a> >> PCH 10<br /><h1>PCH 9</h1>
+    <div id="tipue_search_content">Develop << <a href='Develop.html'>Previous</a> <a href='PCH 10.html'>Next</a> >> PCH 10<br /><h1>PCH 9</h1>
 <p style="text-align: center;"><strong>PCH 9: Networking Overview</strong></p>
-<br />UNIT 4 << <a href='UNIT 4.html'>Previous</a> <a href='PCH 10.html'>Next</a> >> PCH 10</div>
+<p><strong>Overview</strong></p>
+<div class="section" id="N10697">
+<div class="sectionContain">
+<p id="N1069E" lang="">In this module, we are going to cover the various types of networks, including local area networks, wide area networks, personal area networks, and metropolitan area networks. Next, we will cover the various network relationships, such as client/server and peer-to-peer, and focus on the types of resources our networks use. Finally, we will talk about the topologies of our networks, such as the bus, the ring, the star, the full mesh, and hybrid network topologies.</p>
+<p lang=""><strong>Network Defined By Geography</strong></p>
+</div>
+</div>
+<div class="section" id="N106A3">
+<div class="sectionContain">
+<p id="N106AA" lang="">Networks are defined by the geography they cover. We start with the area around a single person, with this area being termed the personal area network (PAN). Next, we expand outward to the local area network (LAN), which can contain an entire office floor or building. Moving outward again, we have the metropolitan area network, which covers the area across the city by connecting multiple LANs together. Finally, we have the wide area network (WAN). This is the largest network we define by geography and it can go across the country or even across the world. A great example of a WAN is the Internet, since it connects many networks together and stretches across the globe.</p>
+<p lang=""><img src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH09/webcontent/PCH09/image1.png"/></p>
+<p lang=""><strong>Personal Area Network</strong></p>
+<p id="N106E1" lang="">A PAN has a very small range limited to just a few meters. If you stretch your hands out at your sides and spin around in a circle, this is the physical range of most PANs. Bluetooth is one of the main things we use to create a PAN, although USB and infrared can also be used for these networks. Bluetooth has a range between one meter and 100 meters depending on which class of Bluetooth you are using, but most common Bluetooth devices are class two devices limited to 10 meters. Some good examples of PANs are the connection between a USB hard drive and a laptop, or a Bluetooth cellphone connecting to your car stereo system wirelessly.</p>
+<p lang=""><strong>Local Area Network</strong></p>
+<p id="N1070D" lang="">The next type of network defined by geography is the LAN, which stands for local area network. The local area network is comprised of several devices that allow computers to connect to each other within a small geographic area. A LAN is, at its most basic, a connection of several workstations together using a hub, switch, or wireless access point. LANs have a limited distance associated with them, with each network segment usually limited to 100 meters or less. Generally, a LAN is used to network the floor of an office, or possibly the entire office building in smaller networks. LANs are generally connected in either a wired or wireless manner. If wired, they are connected using unshielded twisted pair cable using the Ethernet (IEEE 802.3) standard; if wireless, they are connected using Wi-Fi radio signal (IEEE 802.11) standards.</p>
+<p lang=""><img src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH09/webcontent/PCH09/image3.jpeg"/></p>
+<p lang=""><strong>Metropolitan Area Networks</strong></p>
+<p id="N1076F" lang="">Another way we can geographically define our networks is as a MAN. A metropolitan area network connects scattered locations across the city or county. This covers a larger geographical area than a local area network, but also a much smaller area than a wide-area network.</p>
+<p lang=""><img src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH09/webcontent/PCH09/image13.jpeg"/></p>
+<p lang=""><strong>Wide Area Networks</strong></p>
+<p id="N10787" lang="">The WAN is used to connect network components that are geographically separated over vast distances together. An example of a WAN would be to connect an office in Los Angeles to another corporate office in New York. This can be done using virtual private networks (VPNs) over the Internet or using dedicated leased lines that would physically connect the city pairs together. Regardless of the method of connection, once the two local area networks from Los Angeles and New York are connected, they become part of the larger wide area network topology.</p>
+<p lang=""><img src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH09/webcontent/PCH09/image14.jpeg"/></p>
+<p lang=""><span>In addition to defining networks by geography or how much area they cover, you can also define them by the way they allocate their resources. The first method is what we call a client/server model. In a client/server model, a dedicated server or servers provide(s) access to files, scanners, printers, and other resources to client workstations. This simplifies the administration and backup burden, making the network centrally administered, and can provide better security because resources can be allocated according to job function, network privilege, or department, since all of the resources are located on a few key servers. The second way of sharing resources on the network is called the peer-to-peer model. In the peer-to-peer model, all workstations are considered equals: each computer or workstation shares its resources directly with the other workstations. There is no central administration. For example, if I shared my printer with my coworkers, then each time my coworker printed a document, it would be sent to the printer through my workstation. The drawback to this is that if my computer is turned off, my coworkers lose access to my resources, such as my printer. The administration and backup under the peer-to-peer model is much more difficult, since resources are located on numerous workstations across the network, making administrative tasks burdensome. Furthermore, there is no real way of securing network resources when allowing access between nodes or workstations. The benefit of peer-to-peer resource sharing is the low cost of entry, since no dedicated servers or specialized operating systems are required to share the resources.</span></p>
+<p id="N10698" lang="">Besides geography and relationships, we can also define our networks by their topology. When we define our networks by their topology, we consider both the physical and logical topology, and both of these topologies do not have to match for a single network. The physical topology determines how the devices are physically connected, while the logical topology determines how the traffic flows across the network in a logical manner. There are many types of topologies, including bus, ring, star, full mesh, and hybrid. Currently, the most widely used model is a physical star and a logical bus topology using Ethernet.</p>
+<p lang=""><strong>Bus Topology</strong></p>
+<div class="section" id="N1069B">
+<div class="sectionContain">
+<p id="N106A2" lang="">Bus topology typically uses a single cable running through the area that needs network connectivity, with each device that wishes to connect to the network tapping into that cable. The devices tap into the cable using either a T connector (see diagram below) or a vampire tap. A vampire tap is actually a type of connection where a metal tooth bites into the cable, making a physical connection with the copper wire running inside the cable. While bus topology is an older technology and not commonly used anymore, physically, it can still be found as a logical implementation in some instances.</p>
+<p lang=""><img src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH09/webcontent/PCH09/image15.png"/></p>
+<p lang=""><strong>Ring Topology</strong></p>
+<p lang="">Ring topology typically uses a cable running in a circular loop, with each device connected to the ring. Data travels in a single direction around the ring. The most common use of ring topology is with backbone fiber networks. Fiber distributed data interface (FDDI) is a set of standards for transmitting data on fiber-optic lines in a LAN. FDDI commonly uses two counter-rotating rings to provide more redundancy. Each device waits its turn to communicate on the ring by passing a token around the ring. Therefore, ring topology networks are also called token ring networks. As there are two counter-rotating rings, FDDI tends to provide a little more redundancy than a standard bus topology. However, both bus and ring topologies were quickly replaced in most LANs by the star topology.</p>
+<p lang=""><img src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH09/webcontent/PCH09/image16.png"/></p>
+<p lang=""><strong>Star Topology</strong></p>
+<p id="N106D6" lang="">Star topology is by far the most common topology in use today. We find star topologies in use in nearly all local area networks. All the devices of the star topology connect to a single point. That single point of connection can be a hub or switch. In most modern networks, the single connection point will be a switch. Star topologies are the dominant physical topology today, although they are not always used as the logical topology. Ethernet cabling, also known as unshielded twisted-pair, is very commonly employed in local area networks using a star configuration. However, fiber-optic connections can also be used for high-speed or high-security networks. The downside with the star topology is that it creates a single point of failure. If a central device such as a switch fails, the entire network fails as well. Star topologies have the benefit of reduced expense and make expansion very easy, unlike bus and ring network varieties.</p>
+<p id="N106D6" lang=""><img src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH09/webcontent/PCH09/image17.png"/></p>
+<p lang=""><strong>Full Mesh Topology</strong></p>
+<p id="N106F0" lang="">To deal with the issue of redundancy, the full mesh topology was created. This topology is by far the most redundant, and expensive, topology because every node or workstation in the network is directly connected to every other node. While this provides optimal routing, it is very expensive to maintain and operate. The number of connections required for any number of nodes can be calculated by using the formula, x = n(n-1)/2. For example, if you have six nodes, that would require 15 cables to connect them all to each other. If you had 50 nodes, that would require 1225 separate connections. You can certainly see why this topology is almost never used for local area networks, as the number of machines would drive the number of connections up too quickly.</p>
+<p lang=""><img src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH09/webcontent/PCH09/image18.png"/></p>
+<p lang=""><strong>Partial Mesh Topology</strong></p>
+<p id="N1070A" lang="">To solve the cost issues created by the full mesh topology, engineers created the partial mesh topology. Partial mesh topology is really a hybrid full mesh topology. It provides redundancy and optimal routing between some sites, while avoiding the expense of connecting every single site. In order to create this successfully, though, you must consider the network traffic patterns to design it efficiently.</p>
+</div>
+</div>
+<p lang=""></p>
+</div>
+</div>
+<br />Develop << <a href='Develop.html'>Previous</a> <a href='PCH 10.html'>Next</a> >> PCH 10</div>
         
     <!-- footer -->
       <div class="container">
